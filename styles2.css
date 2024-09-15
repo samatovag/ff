@@ -1,0 +1,117 @@
+body, h1, h2, ul, li, p {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: georgia,serif;   
+    line-height: 1.6;
+    color: black;
+    background-color:green;
+}
+
+header {
+    background-color: burlywood;
+    color: white;
+    padding: 16px;
+    text-align: center;
+    border-bottom: 2px solid yellow;
+}
+
+header h1 {
+    margin-bottom: 8px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 16px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 32px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+}
+
+#style-hist h2 {
+    color: brown;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    margin-bottom: 24px;
+}
+
+figure {
+    margin: 16px 0;
+    text-align: center;
+}
+
+figure img {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid lightgray;
+    border-radius: 5px;
+}
+
+figcaption {
+    margin-top: 8px;
+    font-style: italic;
+    color: grey;
+}
+
+footer {
+    background-color:burlywood;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+body {
+    color: black;
+    background-color: lightgrey;
+}
+figure img:hover {
+    transition: transform 0.2s;
+    transform: scale(1.05);
+}
+
+nav a:focus {
+    outline: 2px solid red;
+    outline-offset: 2px;
+}
+h1::before {
+    content: " * ";
+    color: brown;
+}
+
+h2::after {
+    content: " !! ";
+    color: brown;
+}
+
